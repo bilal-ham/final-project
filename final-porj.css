@@ -1,0 +1,126 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-box {
+  border: 2px dashed black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 1px;
+  background-color: rgb(147, 152, 109);
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-box a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+}
+.top-box a:hover {
+  color: white;
+}
+
+h1 {
+  color: darkgoldenrod;
+}
+
+.top-text {
+  border: 5px solid darkgoldenrod;
+  color: rgb(34, 34, 135);
+  border-radius: 8px;
+  text-align: center;
+  margin: 1px;
+
+  background-color: darkkhaki;
+}
+
+.top-text p {
+  color: black;
+}
+
+.mitel-box {
+  border: 2px solid burlywood;
+  border-radius: 8px;
+  padding: 10px;
+  color: rgb(11, 11, 11);
+  font-size: medium;
+}
+.überblick {
+  border: 5px solid darkgoldenrod;
+  border-radius: 8px;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
+  font-size: medium;
+  color: darkgoldenrod;
+  height: 51vw;
+  padding-block-end: 2px;
+  background-color: darkkhaki;
+}
+.überblick p {
+  color: black;
+}
+.tabel {
+  margin: 5vw;
+  width: 75vw;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.info {
+  color: rgb(16, 19, 19);
+  text-align: center;
+  font-size: xx-large;
+  font-family: unset;
+}
+.info2 {
+  font-size: medium;
+  text-align: start;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  height: 50vh;
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.anmelden {
+  border: 10px solid green;
+  padding: 5px;
+  width: 120px;
+  margin-left: 15vw;
+
+  background-color: green;
+  text-decoration: none;
+  border-radius: 8px;
+  height: 40px;
+}
+.anmelden:hover {
+  color: aliceblue;
+}
+
+.mitel-text {
+  border: 2px solid black;
+
+  text-align: calc(49);
+  height: 55vw;
+  margin: 70px;
+  padding: 3px;
+  align-items: end;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://media.istockphoto.com/id/1178753201/de/foto/ein-fu%C3%9Fballer-feiert-ein-tor.jpg?s=2048x2048&w=is&k=20&c=mXi3slTlmI4vVOVQ6ALgrEVHlUiUsefY3Jsx6krR0Rs=);
+}
+.ende {
+  width: 97vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  height: 400px;
+  background-image: url(https://team-soccer.eu/storage/2018/04/014-marketing-slider-und-aufmacher.jpg);
+}
+.ende a:hover {
+  color: rgb(19, 145, 28);
+}
